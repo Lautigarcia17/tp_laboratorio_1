@@ -1,0 +1,7 @@
+14:11:30 **** Rebuild of configuration Debug for project TP-N1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP-N1.o" "..\\src\\TP-N1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\UTN.o" "..\\src\\UTN.c" 
+gcc -o TP-N1.exe "src\\TP-N1.o" "src\\UTN.o" "src\\calculos.o" 
+Info: Nothing to build for TP-N1
