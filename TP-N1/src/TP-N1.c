@@ -1,10 +1,8 @@
 /*
  ============================================================================
- Name        : TP-N1.c
+ Name        : TP-N1
  Author      : Lautaro Nahuel Garcia
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Division     : B
  ============================================================================
  */
 
@@ -116,13 +114,17 @@ int main(void)
 			}
 			else
 			{
-				printf("\nDebe ingresar los kilometros y los precios  de aerolineas y latam antes de continuar\n");
+				printf("\nDebe ingresar los kilometros y los precios  de aerolineas y latam antes de continuar.\n");
 			}
 		break;
 		case 4:
 			if(banderaPreciosLatam==1 && banderaKilometros==1 && banderaPrecioAerolineas==1)
 			{
 				MostrarResultados(Precioaerolineas,debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioViajeUnitarioAerolineas,Preciolatam ,debitoLatam, creditoLatam, bitcoinLatam, precioViajeUnitarioLatam , diferencia);
+			}
+			else
+			{
+				printf("\n Para continuar debe calcular los precios primero.\n");
 			}
 		break;
 		case 5:
